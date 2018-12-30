@@ -1,0 +1,42 @@
+.todo-item {
+  background-color: rgb(240, 240, 100);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.todo-text {
+  flex: 1;
+}
+
+.prioritized {
+  background-color: rgb(255, 100, 100);
+}
+
+.prioritize-btn {
+  align-self: center;
+  height: 100%;
+  background: rgb(255, 80, 80);
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-family:Roboto, Helvetica, Arial, sans-serif;
+  font-size:16px;
+  font-style:normal;
+  font-weight:400;
+  padding: 10px 20px 10px 20px;
+  transition: box-shadow 0.5s;
+}
+
+.prioritize-btn:hover {
+  box-shadow: 0px 3px 3px grey;
+  cursor: pointer;
+}
+
+.prioritize-btn:active {
+  background: rgb(255, 0, 0);
+}
